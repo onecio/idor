@@ -103,7 +103,7 @@ def gerar_relatorio(nome, resultados):
     c.save()
     console.print(f"\n[bold green]Relatório salvo em:[/bold green] {pdf_file}\n")
 
-# Execução principal
+# Execução principal do aplicativo Idor
 for alvo in ALVOS:
     resultado = analisar_alvo(alvo)
     if resultado:
